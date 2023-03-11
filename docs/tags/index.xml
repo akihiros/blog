@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on akihiros</title>
+    <link>https://akihiros.github.io/blog/tags/</link>
+    <description>Recent content in Tags on akihiros</description>
+    <image>
+      <title>akihiros</title>
+      <url>https://akihiros.github.io/blog/profile.png</url>
+      <link>https://akihiros.github.io/blog/profile.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 11 Mar 2023 17:00:32 +0900</lastBuildDate><atom:link href="https://akihiros.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sample</title>
+      <link>https://akihiros.github.io/blog/tags/sample/</link>
+      <pubDate>Sat, 11 Mar 2023 17:00:32 +0900</pubDate>
+      
+      <guid>https://akihiros.github.io/blog/tags/sample/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>akihiros</title>
+    <link>https://akihiros.github.io/blog/</link>
+    <description>Recent content on akihiros</description>
+    <image>
+      <title>akihiros</title>
+      <url>https://akihiros.github.io/blog/profile.png</url>
+      <link>https://akihiros.github.io/blog/profile.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 11 Mar 2023 17:00:32 +0900</lastBuildDate><atom:link href="https://akihiros.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>本ブログの作成方法</title>
+      <link>https://akihiros.github.io/blog/posts/20230311/</link>
+      <pubDate>Sat, 11 Mar 2023 17:00:32 +0900</pubDate>
+      
+      <guid>https://akihiros.github.io/blog/posts/20230311/</guid>
+      <description>ブログの作成方法 Hugo + Github Pagesで公開しています。 参考にしたサイト Zenn：このブログと同じテーマを使用しており、とてもわかりやすいです。 Youtube：同じテーマを使った動画解説です。Hugoの構成から解説してくれているので必見です。 簡易手順 Windows11を想定しています(Chocolatey使用)。 公式サイトにインストール方法の記載があります。 前提条件 あらかじめgithubでリポジトリを作成し、cloneしておくこと。 # Hugoのインストール choco install hugo-extended hugo version # テンプレの作成 # cloneしたフォルダの中身が空出ない場合は--forceが必要 hugo new site フォルダ --force -f yml # テーマのインストール git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # localで立ち上げ hugo server # 新規投稿を作成 hugo new posts/xxx.md # 公開用のビルド hugo </description>
+    </item>
+    
+    
+    <item>
+      <title>Profile</title>
+      <link>https://akihiros.github.io/blog/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://akihiros.github.io/blog/profile/</guid>
+      <description>作成中 </description>
+    </item>
+    
+    
+  </channel>
+</rss>
